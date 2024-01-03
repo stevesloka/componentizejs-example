@@ -1,0 +1,9 @@
+name = "componentize"
+language = "rust"
+type = "actor"
+
+[actor]
+claims = []
+build_command = "node componentize.mjs"
+build_artifact = "hello.component.wasm"
+destination = "hello.component_s.wasm"

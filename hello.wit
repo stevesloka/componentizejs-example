@@ -1,0 +1,9 @@
+package wasmcloud:bus;
+
+interface guest {
+    call: func(operation: string) -> result<_, string>;
+}
+
+world hello {
+  export guest;
+}
